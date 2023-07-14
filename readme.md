@@ -1,4 +1,4 @@
-<h1> Pautas de Diseño Atom Design </h1>
+Pautas de Diseño Atom Design 
 
 src/
 |- Atoms/
@@ -20,9 +20,9 @@ src/
 | |- ...
 |
 |- Templates/ --> Donde ordenamos lo que vamos a acomodar en Pages (No lleva logica aqui a no ser simples)
+| |- LayoutPerfil.js --> encabezado de perfil && content && footer
 | |- LayoutPrincipal.js --> Navbar
 | |- BarraLateralDerecha.js --> Perfil && sugerencias && Footer
-| |- LayoutPerfil.js --> encabezado de perfil && content && footer
 | |- ...
 |
 |- Pages/ --> Solo vistas --> Serain los routes
